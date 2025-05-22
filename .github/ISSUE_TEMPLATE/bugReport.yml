@@ -8,37 +8,13 @@ body:
       label: Description
       description: Describe the bug.
       placeholder: |
-        A clear and concise description of what the bug is.
+        A clear and concise description of what the bug is. Include the following if applicable:
+          - Browser (ex: Chrome, Firefox, Safari, Edge, IE11)
+          - Org Type (ex: Summer '25 scratch org)
+          - Package Version (ex: 0.13)
+          - User Info (ex: System Admin, Standard User, Guest User)
     validations:
       required: true
-  - type: textarea
-    id: browsers
-    attributes:
-      label: Browser
-      description: The browser(s) where the bug was observed.
-      placeholder: |
-        Chrome, Firefox, Safari, Edge, IE11
-  - type: textarea
-    id: org-type
-    attributes:
-      label: Org Type
-      description: The type of Salesforce Org where the bug was observed.
-      placeholder: |
-        ex: Summer '25 scratch org
-  - type: textarea
-    id: package-info
-    attributes:
-      label: Package Information
-      description: The package version where the bug was observed.
-      placeholder: |
-        ex: 0.13
-  - type: textarea
-    id: user-type
-    attributes:
-      label: User Type
-      description: The user type(s) that the bug was observed for.
-      placeholder: |
-        ex: System Admin, Standard User, Guest User
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -57,15 +33,6 @@ body:
       description: Describe what you expected to happen.
       placeholder: |
         A clear and concise description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: actual-behavior
-    attributes:
-      label: Actual Behavior
-      description: Describe what actually happened.
-      placeholder: |
-        A clear and concise description of what currently happens.
     validations:
       required: true
   - type: textarea
