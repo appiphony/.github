@@ -1,8 +1,6 @@
 name: Bug Report
 description: Report a bug or issue with the project.
-title: "[Bug]: "
 type: Bug
-labels: Todo
 body:
   - type: textarea
     id: description
