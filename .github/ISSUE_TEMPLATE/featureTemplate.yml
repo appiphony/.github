@@ -1,4 +1,4 @@
-name: Feature Template
+name: Feature
 description: Create a new feature for this project.
 type: Feature
 body:
@@ -51,33 +51,39 @@ body:
         - Edge
         - IE11
       default: 0
-  - type: checkboxes
+  - type: dropdown
     id: editions
     attributes:
       label: Editions
       description: The Salesforce editions the feature should be compatible with.
+      multiple: true
       options:
-        - label: Enterprise
-        - label: Essentials
-        - label: Professional
-  - type: checkboxes
+        - Enterprise
+        - Essentials
+        - Professional
+      default: 0
+  - type: dropdown
     id: clouds
     attributes:
       label: Clouds
       description: The Salesforce clouds the feature should be compatible with.
+      multiple: true
       options:
-        - label: Sales
-        - label: Community
-        - label: Service
-        - label: FSC
-        - label: Health
-        - label: CPQ
-  - type: checkboxes
+        - Sales
+        - Community
+        - Service
+        - FSC
+        - Health
+        - CPQ
+      default: 0
+  - type: dropdown
     id: experiences
     attributes:
       label: Experiences
       description: The Salesforce experiences the feature should be compatible with.
+      multiple: true
       options:
-        - label: Lightning
-        - label: Classic
-        - label: Mobile
+        - Lightning
+        - Classic
+        - Mobile
+      default: 0
