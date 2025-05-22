@@ -1,3 +1,11 @@
 name: Sub-Feature
 description: Create a new sub-feature for this project.
 type: Sub-Feature
+body:
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Additional information that may be helpful in understanding the sub-feature.
+      placeholder: |
+        Provide any additional information that may be helpful.
