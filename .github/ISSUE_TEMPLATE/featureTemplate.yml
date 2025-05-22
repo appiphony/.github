@@ -38,17 +38,19 @@ body:
         - User cannot...
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: browsers
     attributes:
       label: Browsers
       description: The browsers the feature should be compatible with.
+      multiple: true
       options:
-        - label: Chrome
-        - label: Firefox
-        - label: Safari
-        - label: Edge
-        - label: IE11
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - IE11
+      default: 0
   - type: checkboxes
     id: editions
     attributes:
