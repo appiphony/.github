@@ -21,7 +21,6 @@ body:
         - Org Type:
         - Package Info:
         - User Info:
-        - Screenshots/Video Recordings:
     validations:
       required: true
   - type: textarea
