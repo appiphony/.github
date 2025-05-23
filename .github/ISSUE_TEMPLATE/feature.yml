@@ -8,7 +8,7 @@ body:
       label: Persona
       description: The persona for whom the feature is being created.
       placeholder: |
-        ex: Admin, Developer, User
+        ex: Admin, Developer, End User
     validations:
       required: true
   - type: input
@@ -17,7 +17,7 @@ body:
       label: Use Case
       description: The use case for the feature.
       placeholder: |
-        ex: I want to be able to...
+        ex: As an end user, I want to be able to...
     validations:
       required: true
   - type: textarea
@@ -25,6 +25,8 @@ body:
     attributes:
       label: Description
       description: A description of the feature.
+      placeholder: |
+        Describe the feature.
     validations:
       required: true
   - type: textarea
