@@ -52,7 +52,7 @@ body:
         - Safari
         - Edge
         - IE11
-      default: [0,1,2]
+      default: 0
   - type: dropdown
     id: editions
     attributes:
