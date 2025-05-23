@@ -52,7 +52,7 @@ body:
         - Safari
         - Edge
         - IE11
-      default: 0
+      default: [0,1,2]
   - type: dropdown
     id: editions
     attributes:
@@ -72,11 +72,12 @@ body:
       multiple: true
       options:
         - Sales
-        - Community
+        - Experience
         - Service
         - FSC
         - Health
         - CPQ
+        - Commerce
       default: 0
   - type: dropdown
     id: experiences
