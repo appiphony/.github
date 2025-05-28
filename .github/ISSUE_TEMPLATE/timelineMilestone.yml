@@ -1,0 +1,11 @@
+name: Timeline Milestone
+description: Create a new milestone to display on the project timeline.
+type: Timeline Milestone
+body:
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Additional information that may be helpful in understanding the milestone.
+      placeholder: |
+        Provide any additional information that may be helpful.
